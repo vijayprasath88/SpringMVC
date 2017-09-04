@@ -27,6 +27,9 @@ public class Student {
 	
 	private String[] operatingSystems;
 	
+	@CourseCode(value="LUV",message="Must start with LUV")
+	private String courseCode;
+	
 
 	public String getFirstName() {
 		return firstName;

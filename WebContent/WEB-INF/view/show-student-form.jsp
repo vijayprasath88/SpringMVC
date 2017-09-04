@@ -18,8 +18,8 @@ Operating systems :
   </c:forEach>
 </ul>
 
+<br><br>
+Course Code : ${student.courseCode}
 
-
- 
 </body>
 </html>
